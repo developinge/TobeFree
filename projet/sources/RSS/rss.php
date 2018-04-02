@@ -5,5 +5,6 @@
  
   //On appelle la fonction de mise à jour du fichier
   update_fluxRSS();
+		$smarty->display("sources/RSS/rss.xml");	
  
 ?>  
